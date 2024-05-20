@@ -4,6 +4,6 @@
 # Run the following for a clean install.
 # pip freeze | xargs pip uninstall -y
 
-pip install pyright
+pip install jupyterlab pyright
 pip install beautifulsoup4 discord.py requests
 pip freeze >Requirements.txt
